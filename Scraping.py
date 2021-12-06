@@ -88,9 +88,9 @@ def mars_fact():
     # Parsing the table to html for future use
     return df.to_html()
 
-#if __name__ == "__main__":
+if __name__ == "__main__":
     # If running as script, print scraped data
- #   print(scrape_all())
+    print(scrape_all())
 
 
 
